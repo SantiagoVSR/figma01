@@ -1,0 +1,154 @@
+{
+    "frames": [
+        {
+            "name": "Pantalla de Inicio de Sesi\u00f3n",
+            "backgroundColor": "#153D6C",
+            "elements": [
+                {
+                    "type": "text",
+                    "content": "Iniciar Sesi\u00f3n",
+                    "x": 50,
+                    "y": 40,
+                    "fontSize": 32,
+                    "color": "#FFFFFF"
+                },
+                {
+                    "type": "input",
+                    "placeholder": "C\u00e9dula",
+                    "x": 50,
+                    "y": 100,
+                    "width": 300,
+                    "height": 40
+                },
+                {
+                    "type": "input",
+                    "placeholder": "Contrase\u00f1a",
+                    "x": 50,
+                    "y": 160,
+                    "width": 300,
+                    "height": 40
+                },
+                {
+                    "type": "button",
+                    "text": "Entrar",
+                    "x": 50,
+                    "y": 220,
+                    "width": 300,
+                    "height": 45,
+                    "color": "#0367EC"
+                }
+            ]
+        },
+        {
+            "name": "Dashboard del Socio",
+            "backgroundColor": "#F1DB62",
+            "elements": [
+                {
+                    "type": "text",
+                    "content": "Bienvenido, Socio",
+                    "x": 30,
+                    "y": 30,
+                    "fontSize": 28,
+                    "color": "#153D6C"
+                },
+                {
+                    "type": "card",
+                    "title": "Mis Reservas",
+                    "x": 30,
+                    "y": 100,
+                    "width": 250,
+                    "height": 120,
+                    "color": "#0367EC"
+                },
+                {
+                    "type": "card",
+                    "title": "Mis Convenios",
+                    "x": 300,
+                    "y": 100,
+                    "width": 250,
+                    "height": 120,
+                    "color": "#B48314"
+                }
+            ]
+        },
+        {
+            "name": "Afiliaci\u00f3n de Usuario",
+            "backgroundColor": "#FFFFFF",
+            "elements": [
+                {
+                    "type": "text",
+                    "content": "Formulario de Afiliaci\u00f3n",
+                    "x": 40,
+                    "y": 40,
+                    "fontSize": 30,
+                    "color": "#153D6C"
+                },
+                {
+                    "type": "input",
+                    "placeholder": "Nombres Completos",
+                    "x": 40,
+                    "y": 100,
+                    "width": 320,
+                    "height": 40
+                },
+                {
+                    "type": "input",
+                    "placeholder": "C\u00e9dula",
+                    "x": 40,
+                    "y": 160,
+                    "width": 320,
+                    "height": 40
+                },
+                {
+                    "type": "input",
+                    "placeholder": "Correo Electr\u00f3nico",
+                    "x": 40,
+                    "y": 220,
+                    "width": 320,
+                    "height": 40
+                },
+                {
+                    "type": "button",
+                    "text": "Enviar Solicitud",
+                    "x": 40,
+                    "y": 280,
+                    "width": 320,
+                    "height": 45,
+                    "color": "#0367EC"
+                }
+            ]
+        },
+        {
+            "name": "Noticias",
+            "backgroundColor": "#FFFFFF",
+            "elements": [
+                {
+                    "type": "text",
+                    "content": "\u00daltimas Noticias",
+                    "x": 30,
+                    "y": 30,
+                    "fontSize": 28,
+                    "color": "#153D6C"
+                },
+                {
+                    "type": "card",
+                    "title": "Convenio con Cl\u00ednica XYZ",
+                    "x": 30,
+                    "y": 90,
+                    "width": 540,
+                    "height": 100,
+                    "color": "#F1DB62"
+                },
+                {
+                    "type": "card",
+                    "title": "Nuevo Servicio M\u00e9dico",
+                    "x": 30,
+                    "y": 200,
+                    "width": 540,
+                    "height": 100,
+                    "color": "#F1DB62"
+                }
+            ]
+        }
+    ]
+}
